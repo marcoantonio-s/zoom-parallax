@@ -6,14 +6,16 @@
 }
 body {
     overflow-x: hidden;
-    background-color: #1e1e1e;
+    background-color: #000;
     color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 article {
     padding: 1rem;
 }
 section.parallax {
     background-image: url(/zoom-parallax/assets/img/1.jpg);
+    background-image: url(/assets/img/1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,16 +33,16 @@ header {
     font-weight: bold;
 }
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 300;
     letter-spacing: 30px;
     margin-bottom: 32px;
 }
 header p {
-    width: 400px;
+    width: 95%;
 }
 main {
-    width: 50vw;
+    width: 90vw;
     margin: 0 auto;
     margin-top: -200px;
 }
@@ -51,4 +53,24 @@ p {
 }
 h4 {
     margin: 0 0 16px 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+    h1 {
+    font-size: 6rem;
+    font-weight: 300;
+    letter-spacing: 30px;
+    margin-bottom: 32px;
+} 
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+} 
+    main {
+        width: 50vw;
+        margin: 0 auto;
+        margin-top: -200px;
+} 
 }
