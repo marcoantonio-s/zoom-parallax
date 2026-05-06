@@ -13,7 +13,7 @@ article {
     padding: 1rem;
 }
 section.parallax {
-    background-image: url(/assets/img/1.jpg);
+    background-image: url(/zoom-parallax/assets/img/1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
